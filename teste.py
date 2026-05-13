@@ -77,8 +77,8 @@ with col_left:
     st.markdown("<div style='margin-top:30px;'>", unsafe_allow_html=True)
 
     st.link_button(
-        "Visitar Site do IFPB",
-        "https://www.ifpb.edu.br/"
+        "Visitar Site da Netlix",
+        "https://www.netflix.com/br/"
     )
 
     st.markdown("</div>", unsafe_allow_html=True)
