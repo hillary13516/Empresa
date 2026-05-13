@@ -9,8 +9,8 @@ def get_base64_image(path):
     with open(path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
 
-img_base64 = get_base64_image("star.png")
-zap_base64 = get_base64_image("zap2026.png")
+img_base64 = get_base64_image("FOTO.EMPRESA.webp")
+zap_base64 = get_base64_image("ZAP.png")
 
 
 col1, col2, col3 = st.columns([1,2,1])
@@ -69,7 +69,7 @@ with col_left:
         """, unsafe_allow_html=True)
 
     st.markdown("<div style='margin-top:30px;'>", unsafe_allow_html=True)
-    st.link_button("Acessar", "http://lattes.cnpq.br/4494611683890258")
+    st.link_button("Acessar", "https://web.whatsapp.com/")
     st.markdown("</div>", unsafe_allow_html=True)
 
 with col_right:
@@ -77,7 +77,7 @@ with col_right:
 
 st.markdown(f"""
     <div style="text-align: center; margin-top: 10px;">
-        <a href="https://wa.me/982134672" target="_blank">
+        <a href="https://web.whatsapp.com/" target="_blank">
             <img src="data:image/png;base64,{zap_base64}" width="100">
         </a>
     </div>
